@@ -40,7 +40,6 @@ for line in f:
 
         newCoord = (x, y)
         for i in range(1, distance+1):
-            print i
             newCoord = (x+(i*xSpeed), y+(i*ySpeed))
             if (newCoord in visited):
                 print (abs(newCoord[0])+abs(newCoord[1]))
